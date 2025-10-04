@@ -1,0 +1,26 @@
+# 忽略 node_modules 目录
+node_modules/
+
+# 忽略 package-lock.json
+package-lock.json
+
+# 忽略其他常见文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+*.log
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 忽略 IDE 和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 忽略系统文件
+Thumbs.db
